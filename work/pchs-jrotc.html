@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sysmake - Work - PCHS JROTC</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav__container">
+        <div class="logo">
+          <a href="../index.html">Sysmake</a>
+        </div>
+
+        <button
+          class="nav__toggle"
+          aria-expanded="false"
+          aria-label="Toggle menu"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <nav class="nav" aria-label="Primary">
+          <ul>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#process">Process</a></li>
+            <li><a href="../index.html#work">Work</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="project-hero">
+        <div class="container">
+          <img
+            src="../assets/images/pchs-jrotc-project/pchs-jrotc-project-transparent.png"
+            alt="PCHS JROTC Website Preview"
+            class="project__hero-image"
+          />
+          <h1>PCHS JROTC Website</h1>
+
+          <p class="project__summary">
+            A content-managed website developed for a hypothetical high school
+            JROTC program. The project demonstrates structured content
+            management, a custom GitHub OAuth authentication workflow, Decap CMS
+            integration, and GitHub Pages deployment to create a maintainable
+            website management system.
+          </p>
+          <div class="project__buttons">
+            <a
+              target="_blank"
+              href="https://sysmake-dev.github.io/pchs-jrotc-case-study/src/"
+              class="button button-primary"
+            >
+              Live Demo →
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/sysmake-dev/pchs-jrotc-case-study"
+              class="button button-secondary"
+            >
+              View Code →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="project__overview">
+        <div class="container">
+          <h2>Project Overview</h2>
+
+          <p>
+            This project explores how a static website can be transformed into a
+            maintainable content management system without relying on
+            traditional hosting platforms. Instead of using a server-side
+            framework, the website is deployed through GitHub Pages while
+            content is managed through Decap CMS, authenticated using a custom
+            GitHub OAuth workflow powered by Cloudflare Workers.
+          </p>
+          <p>
+            The objective was to create a solution that allows instructors and
+            rotating cadet leadership to update announcements, events,
+            leadership information, resources, and gallery images through an
+            intuitive editing interface while preserving the simplicity,
+            performance, and security of a static website.
+          </p>
+        </div>
+      </section>
+
+      <section id="project__objectives">
+        <div class="container">
+          <h2>Objectives</h2>
+
+          <ul>
+            <li>Develop a responsive website.</li>
+            <li>Create a maintainable content workflow.</li>
+            <li>Enable non-technical users to manage content.</li>
+            <li>Deploy through GitHub Pages.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="project__technologies">
+        <div class="container">
+          <h2>Technologies</h2>
+
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>GitHub Pages</li>
+            <li>Decap CMS</li>
+            <li>Cloudflare Workers</li>
+            <li>GitHub OAuth</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="project__features">
+        <div class="container">
+          <h2>Features</h2>
+
+          <ul>
+            <li>Responsive design</li>
+            <li>Announcement management</li>
+            <li>Event management</li>
+            <li>Resource management</li>
+            <li>Leadership profiles</li>
+            <li>Gallery management</li>
+            <li>Media uploads</li>
+            <li>Git-based content workflow</li>
+            <li>Secure GitHub OAuth authentication</li>
+            <li>Static deployment through GitHub Pages</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="project__highlights">
+        <div class="container">
+          <h2>Technical Highlights</h2>
+
+          <article class="project__highlight">
+            <h3>Custom GitHub OAuth Authentication</h3>
+
+            <p>
+              Instead of relying on Netlify Identity or another hosted
+              authentication service, the project implements a custom OAuth
+              workflow using a Cloudflare Worker. The worker authenticates users
+              through GitHub, exchanges authorization codes for access tokens,
+              and securely integrates with Decap CMS.
+            </p>
+          </article>
+
+          <article class="project__highlight">
+            <h3>Structured JSON Content</h3>
+
+            <p>
+              Website content is organized into dedicated JSON files that
+              separate content from presentation. Each content type is managed
+              independently, simplifying maintenance while reducing duplication
+              throughout the project.
+            </p>
+          </article>
+
+          <article class="project__highlight">
+            <h3>Maintainable Architecture</h3>
+
+            <p>
+              The website is organized into reusable components with a clear
+              separation between content, styling, and behavior. JavaScript
+              modules dynamically load and render structured content, making
+              future expansion straightforward.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="project__challenges">
+        <div class="container">
+          <h2>Challenges</h2>
+
+          <ul>
+            <li>Building a custom OAuth workflow compatible with Decap CMS.</li>
+            <li>
+              Debugging browser security restrictions during authentication.
+            </li>
+            <li>
+              Designing collections that remained intuitive for non-technical
+              editors.
+            </li>
+            <li>Managing media uploads within a GitHub Pages environment.</li>
+            <li>
+              Creating a maintainable project structure while remaining entirely
+              static.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="project__outcome">
+        <div class="container">
+          <h2>Outcome</h2>
+
+          <p>
+            The completed website provides a fully responsive, content-managed
+            solution that demonstrates how modern static hosting platforms can
+            support dynamic editorial workflows. Beyond the website itself, the
+            project also established reusable infrastructure and deployment
+            knowledge that can be applied to future systems built under Sysmake.
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        <p>Copyright &copy; 2026 Sysmake</p>
+      </footer>
+    </main>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
